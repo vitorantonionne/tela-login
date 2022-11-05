@@ -19,6 +19,7 @@ body {
 section#login {
     background-color: white;
     width: 65vw;
+    height: 34vh;
     margin: auto;
     margin-top: 200px;
 }
