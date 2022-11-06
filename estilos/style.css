@@ -17,6 +17,8 @@ body {
 }
     
 section#login {
+    display: flex;
+    justify-content: center;
     background-color: white;
     width: 65vw;
     height: 50vh;
@@ -38,3 +40,9 @@ section#login p {
     margin-bottom: 5px;
 }
 
+#imagem {
+    border: 1px solid black;
+    background: url('../imagens/login.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 50vw;
+}
