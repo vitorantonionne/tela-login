@@ -32,4 +32,6 @@ section#login > div#imagem {
     background: black url(../imagens/login2.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
