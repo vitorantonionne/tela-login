@@ -30,6 +30,15 @@ Grandes telas: acima de 1200px
         border-bottom-left-radius: 15px;
         border-top-right-radius: 0px;
     }
+
+   .caixa  {
+        width: 147%;
+        height: 44px;
+   }
+
+   .caixa input {
+        width: 301px;
+   }
 }
 
 @media screen and (min-width: 992px) {
@@ -52,5 +61,14 @@ Grandes telas: acima de 1200px
         border-top-left-radius: 0px;
         border-bottom-right-radius: 15px;
     } 
+
+    .caixa  {
+        width: 163%;
+        height: 44px;
+   }
+
+   .caixa input {
+        width: 339px;
+   }
 
 }

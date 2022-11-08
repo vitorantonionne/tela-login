@@ -63,7 +63,7 @@ section#login form {
     display: block;
     background-color: #A49F99;
     width: 100%;
-    height: 46px;
+    height: 45px;
     margin: 5px 0px;
     border-radius: 10px;
 }
@@ -80,6 +80,13 @@ section#login form {
 
     transform: translateY(-4px); 
 }
+
+
+
+
+
+
+
 
 section#login {
     animation: effect 2s;
