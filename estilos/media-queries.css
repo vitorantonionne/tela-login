@@ -20,12 +20,12 @@ Grandes telas: acima de 1200px
         display: flex;
         flex-direction: row;
         width: 80vw;
-        height: 297px;
+        height: 294px;
 
     }
 
     section#login > div#imagem {
-        height: 46vh;
+        height: 42vh;
         width: 40vw;
         border-bottom-left-radius: 15px;
         border-top-right-radius: 0px;
@@ -38,4 +38,19 @@ Grandes telas: acima de 1200px
         background-image: linear-gradient(to bottom ,#DBD4CC ,#A49F99,#5C5955);
     }
 
+    section#login {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 900px;
+        height: 350px;
+    }
+
+    section#login >div#imagem {
+        width: 60%;
+        height: 100%;
+
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 15px;
+    } 
+    
 }
