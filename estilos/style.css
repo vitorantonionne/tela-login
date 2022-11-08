@@ -10,7 +10,7 @@
 html , body  {
     height: 100vh;
     width: 100vw;
-    background-color: blueviolet;  
+    background-image: linear-gradient(to bottom ,#DBD4CC ,#A49F99,#5C5955); 
 }
 
 body {
@@ -33,5 +33,42 @@ section#login > div#imagem {
     background-size: cover;
     height: 200px;
     border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+
+section#login h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+section#login p {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+section#login form {
+    width: 235px;
+    margin-left: 5px;
+}
+
+.caixa {
+    display: block;
+    background-color: #A49F99;
+    width: 100%;
+    height: 41px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+.caixa label > span {
+    padding: 7px;
+}
+
+.caixa input {
+    height: 37px;
+    border-radius: 10px;
+    border: 1px solid #A49F99;
+
+    transform: translateY(-5px);
 }
