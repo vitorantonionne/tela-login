@@ -10,7 +10,7 @@
 html , body  {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom ,#DBD4CC ,#A49F99,#5C5955); 
+    background-color: #DBD4CC;
 }
 
 body {
@@ -26,14 +26,21 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
+    transition: width .3s, height .6s;
 }
 
 section#login > div#imagem {
-    background: black url(../imagens/login2.jpg) no-repeat center center fixed;
+    display: block;
+    background: black url(../imagens/login2.jpg) no-repeat center center ;
     background-size: cover;
     height: 200px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; 
+}
+
+div#formulario {
+    display: block;
 }
 
 section#login h1 {
@@ -56,19 +63,20 @@ section#login form {
     display: block;
     background-color: #A49F99;
     width: 100%;
-    height: 41px;
+    height: 46px;
     margin: 5px 0px;
     border-radius: 10px;
 }
 
 .caixa label > span {
-    padding: 7px;
+    padding-top: 8px;
 }
 
 .caixa input {
-    height: 37px;
+    height: 42px;
     border-radius: 10px;
     border: 1px solid #A49F99;
+    padding: 4px;
 
-    transform: translateY(-5px);
+    transform: translateY(-4px); 
 }
