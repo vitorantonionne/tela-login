@@ -39,7 +39,25 @@ Grandes telas: acima de 1200px
    .caixa input {
         width: 301px;
    }
+
+   div#formulario input.entrar {
+        width: 147%;
+        padding: 9px;
+   }
+
+   div#formulario input.entrar:hover {
+    background-color: #2e1f0c46;
+
+    transform: scaley(1.1);
+   }
+
+   div#formulario a {
+        width: 147%;
+        padding: 7px;
+    }
 }
+
+
 
 @media screen and (min-width: 992px) {
     
@@ -70,5 +88,21 @@ Grandes telas: acima de 1200px
    .caixa input {
         width: 339px;
    }
+
+   div#formulario input.entrar {
+        width: 163%;
+        padding: 10px;
+    }
+
+   div#formulario input.entrar:hover {
+        background-color:#2e1f0c46;
+
+        transform: scaley(1.1);
+   }
+
+   div#formulario a {
+        width: 163%;
+        padding: 8px;
+    }
 
 }

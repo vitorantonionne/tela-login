@@ -42,6 +42,7 @@ section#login > div#imagem {
 section#login h1 {
     padding: 10px;
     text-align: center;
+    font-size: 2em;
 }
 
 section#login p {
