@@ -20,12 +20,12 @@ Grandes telas: acima de 1200px
         display: flex;
         flex-direction: row;
         width: 80vw;
-        height: 294px;
+        height: 297px;
 
     }
 
     section#login > div#imagem {
-        height: 42vh;
+        height: 46vh;
         width: 40vw;
         border-bottom-left-radius: 15px;
         border-top-right-radius: 0px;
@@ -52,5 +52,5 @@ Grandes telas: acima de 1200px
         border-top-left-radius: 0px;
         border-bottom-right-radius: 15px;
     } 
-    
+
 }
